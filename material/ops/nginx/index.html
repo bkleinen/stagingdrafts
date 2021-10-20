@@ -110,6 +110,7 @@ within Taxonomies:
 &nbsp;
 <i><a href=https://bkleinen.github.io/stagingdrafts/tools/>Tools</a></i>:
 <a href=https://bkleinen.github.io/stagingdrafts/material/tools/nginx/>nginx</a>
+<hr>
 <h2 id=nginx>nginX</h2>
 <ul>
 <li>Website: <a href=https://nginx.org/>https://nginx.org/</a></li>
@@ -154,9 +155,8 @@ directory <code>/usr/local/nginx/conf</code>, <code>/etc/nginx</code>, or <code>
 </code></pre>
 </li>
 </ul>
-<p>brew install nginx</p>
+<h2 id=generate-a-self-signed-certificate>Generate a self signed certificate</h2>
 <pre><code>openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./nginx-selfsigned.key -out ./nginx-selfsigned.crt
-
 
 
 ssl     on;
