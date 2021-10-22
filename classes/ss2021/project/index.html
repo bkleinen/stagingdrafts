@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title>Summer Term 2021 - STAGING DRAFTS --- Prof. Dr. Barne Kleinen</title>
+<title>Project "IMI Map goes MEVN" - STAGING DRAFTS --- Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/stagingdrafts//favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -93,34 +93,57 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <ol class="breadcrumb breadcrumb-thin">
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/>Home</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/>classes</a></li>
-<li class="breadcrumb-item active" aria-current=page>ss2021</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/ss2021/>ss2021</a></li>
+<li class="breadcrumb-item active" aria-current=page>project</li>
 </ol>
 </nav>
 </div>
 <div class=coursenav>
+<ul class="nav nav-tabs">
+<li class=nav-item>
+<a class="nav-link active" href=https://bkleinen.github.io/stagingdrafts/classes/ss2021/project/>Project "IMI Map goes MEVN"</a>
+</li>
+</ul>
 </div>
 <div class=container-fluid>
-<h3>Classes Summer Term 2021</h3><div class="col-12 col-md-6 mb-2">
+<h2 class=followed> Project "IMI Map goes MEVN"</h2>
+<header class=following>
+<a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
+Table of Contents
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+</header>
+<div class=collapse id=tocContent>
+<nav id=TableOfContents>
 <ul>
-<li><a href=https://bkleinen.github.io/stagingdrafts/classes/ss2021/info1/>Informatics 1 SoSe 2021</a></li>
-<li><a href=https://bkleinen.github.io/stagingdrafts/classes/ss2021/m1-web/>M1 Media Programming</a></li>
-<li><a href=https://bkleinen.github.io/stagingdrafts/classes/ss2021/project/>Project "IMI Map goes MEVN"</a></li>
-<li><a href=https://bkleinen.github.io/stagingdrafts/classes/ss2021/m-wt4-ucd/>User-Centered Web Technology SS2021</a></li>
-<li><a href=https://bkleinen.github.io/stagingdrafts/classes/ss2021/wtat1/>WTAT 1</a></li>
+<li>
+<ul>
+<li><a href=#m6-imi-map-goes-mevn---migrate-the-imi-map-from-rails-to-mevn>M6. IMI Map goes MEVN - Migrate the IMI-Map from Rails to MEVN</a></li>
 </ul>
+</li>
+</ul>
+</nav>
 </div>
-<h3 id=semesterpläne>Semesterpläne</h3>
-<ul>
-<li><a href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112">B 1. Semester</a></li>
-<li><a href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=2&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=2&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112">B 2. Semester</a></li>
-<li><a href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=3&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=3&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112">B 3. Semester</a></li>
-<li><a href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=4&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=4&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112">B 4. Semester</a></li>
-<li><a href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=5&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=5&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112">B 5. Semester</a></li>
-<li><a href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=231&idcol=k_abstgv.abstgvnr&idval=231&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=5&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28B%29%2C+Pr%C3%BCfungsOrdnung+20112">B gesamt</a></li>
-<li><a href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=1&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+Pr%C3%BCfungsOrdnung+20162">M 1. Semester</a></li>
-<li><a href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=2&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=3&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+Pr%C3%BCfungsOrdnung+20162">M 2.-3. Semester</a></li>
-<li><a href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&P.subc=plan&k_abstgv.abstgvnr=312&idcol=k_abstgv.abstgvnr&idval=312&r_zuordabstgv.semvonint=1&k_abstgv.dtxt=internationale&r_zuordabstgv.sembisint=4&purge=n&getglobal=n&text=Internationale+Medieninformatik+%28M%29%2C+Pr%C3%BCfungsOrdnung+20162">M gesamt</a></li>
-</ul>
+<p>Praxisprojekt im Master</p>
+<h3 id=m6-imi-map-goes-mevn---migrate-the-imi-map-from-rails-to-mevn>M6. IMI Map goes MEVN - Migrate the IMI-Map from Rails to MEVN</h3>
+<p>Barne Kleinen</p>
+<p>Die IMI-Map ist eine Web-App, die Studierende beim Finden von Praktikumsplätzen und die Praktikumsbeauftragten bei der Verwaltung der Praktika unterstützt. Sie wurde in zwei früheren Praxisprojekten und einigen Bachelorarbeiten entwickelt und wird seit 2013 im Studiengang aktiv verwendet und weiterentwickelt.
+Sie wurde im Sommersemester 2013 als Ruby on Rails Anwendung entwickelt. Obwohl Ruby on Rails ein stabiles und immer noch aktuelles Web-Framework ist, setzen wir inzwischen in der Lehre modernere, JavaScript-basierte Frameworks ein. Deshalb soll die IMI-Map in diesem Projekt auf den MEVN-Stack (Mongo, Express, Vue und Node) migriert werden, um in Zukunft leichter durch studentische Projekte weiterentwickelt werden zu können.
+Damit ist dieses Projekt sowohl ein Webtechnology- als auch ein softwaretechnisches Projekt, das sich vor allem mit der Frage beschäftigen wird, wie diese Migration sicher, d.h. ohne Regressionen oder Datenverlust durchgeführt werden kann. Ziel ist die tatsächliche Ablösung der IMI-Map durch die neue Version zum Ende des Semesters.</p>
+<h4 id=rails-imi-map>Rails IMI-Map</h4>
+<p>Source-Code: <a href=https://github.com/imimap/imimap>https://github.com/imimap/imimap</a></p>
+<p>IMI-Map: <a href=https://imi-map.f4.htw-berlin.de/>https://imi-map.f4.htw-berlin.de/</a></p>
+<p><strong>Aufbauend auf vorherigen Projekten:</strong></p>
+<p>Erstes Projekt im SoSe 2013: <a href=https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-im-sommersemester-2013/#c11131>https://imi-bachelor.htw-berlin.de/studium/projekte/showtime-im-sommersemester-2013/#c11131</a></p>
+<p>Zweites Projekt im SoSe 2017: <a href=http://home.htw-berlin.de/~kleinen/classes/ss2017/project/>http://home.htw-berlin.de/~kleinen/classes/ss2017/project/</a></p>
+<h4 id=mevn-imi-map-aus-projekt-im-sose-2021>MEVN IMI-Map aus Projekt im SoSe 2021</h4>
+<p>Source-Code: <a href=https://github.com/imimap/imimap21>https://github.com/imimap/imimap21</a></p>
+<p>Demo: <a href=https://imimap.f4.htw-berlin.de/>https://imimap.f4.htw-berlin.de/</a></p>
+<p>Arbeitsstand: <a href=https://github.com/imimap/imimap21/projects/1>https://github.com/imimap/imimap21/projects/1</a></p>
+<p>Documentation der Entscheidungen: <a href=https://github.com/imimap/imimap21/blob/dev/documentation.md>https://github.com/imimap/imimap21/blob/dev/documentation.md</a></p>
+<p>Documentation des Arbeitsprozesses auf Miro: <a href="https://miro.com/app/board/o9J_lJzY37Y=/">https://miro.com/app/board/o9J_lJzY37Y=/</a></p>
+<p>Miro-Board als PDF (read-only-Link): <a href=https://cloud.htw-berlin.de/s/5LGGHMJsFp5e2TG>https://cloud.htw-berlin.de/s/5LGGHMJsFp5e2TG</a>, password: QgSkA6zQzo</p>
+<p>Dokumentation der Ergebnisse auf der Showtime Webseite: <a href=https://showtime.f4.htw-berlin.de/ss21/master/m6-migrate-the-imimap-to-mevn/>https://showtime.f4.htw-berlin.de/ss21/master/m6-migrate-the-imimap-to-mevn/</a></p>
 </div>
 </div>
 </div>
@@ -149,7 +172,7 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <div class=col-9>
 This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc/4.0/>Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 <br><small>
-This page was authored by: kleinen
+This page was authored by: unckell
 </small>
 </div>
 <div class=col-3>
