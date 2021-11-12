@@ -142,6 +142,7 @@ Table of Contents
 <li><a href=#pre-lab>Pre-Lab</a></li>
 <li><a href=#assignment>Assignment</a>
 <ul>
+<li><a href=#preparation>Preparation</a></li>
 <li><a href=#part-1-stack-class>Part 1: Stack Class</a></li>
 <li><a href=#part-2-postfix-class>Part 2: Postfix Class</a></li>
 <li><a href=#part-3-infix-to-postfix>Part 3: Infix to Postfix</a></li>
@@ -154,27 +155,37 @@ Table of Contents
 </nav>
 </div>
 <h2 id=pre-lab>Pre-Lab</h2>
-<p><em><strong>P1.</strong></em> Make sure that you understand <a href=../lab-06-handout>postfix evaluation</a>. If you do the complete Pre-Lab you will be able to understand the algorithms given in the hand out.</p>
+<p><em><strong>P1.</strong></em> Make sure that you understand postfix evaluation. If you do the complete Pre-Lab you will be able to understand the algorithms given in the <a href=lab-06-handout>hand out</a>.</p>
 <p><em><strong>P2.</strong></em> What is the order of precedence for the operators &ldquo;+&rdquo;, &ldquo;-&rdquo;, &ldquo;*&rdquo;, &ldquo;/&rdquo;, &ldquo;^&rdquo;? If we wanted to include &ldquo;(&rdquo; and &ldquo;)&rdquo; in this order, where would each of them be?</p>
 <p><em><strong>P3.</strong></em> Łukasiewicz was a Polish logician, so his notation for parentheses-free expressions is often called Reverse Polish Notation. To get your brain in gear, convert the following expressions to RPN! What are the values of the expressions?</p>
-<pre><code>1. 1 * 2 + 3
-2. 1 + 2 * 3
-3. 1 + 2 - 3 ^ 4
-4. 1 ^ 2 - 3 * 4
-5. 1 + 2 * 3 - 4 ^ 5 + 6
-6. ( 1 + 2 ) * 3 + ( 4 ^ ( 5 - 6 ) )
-7. 1 + 2 + 3 / 4 + 5 + 6 * ( 7 + 8 )
-8. 9 - 1 - 2 - 3 * 2 - 1
-</code></pre>
-<p> </p>
+<ol>
+<li>1 * 2 + 3</li>
+<li>1 + 2 * 3</li>
+<li>1 + 2 - 3 ^ 4</li>
+<li>1 ^ 2 - 3 * 4</li>
+<li>1 + 2 * 3 - 4 ^ 5 + 6</li>
+<li>( 1 + 2 ) * 3 + ( 4 ^ ( 5 - 6 ) )</li>
+<li>1 + 2 + 3 / 4 + 5 + 6 * ( 7 + 8 )</li>
+<li>9 - 1 - 2 - 3 * 2 - 1
+ </li>
+</ol>
 <p><em><strong>P4.</strong></em> For the infix expression <code>a + b ^ c * d ^ e ^ f - g - h / ( i + j )</code>, do the following:</p>
-<pre><code>1. Show how to generate the corresponding postfix expression.
-2. Show how to evaluate the resulting postfix expression.
-</code></pre>
+<ol>
+<li>Show how to generate the corresponding postfix expression.</li>
+<li>Show how to evaluate the resulting postfix expression.</li>
+</ol>
 <p><em><strong>P5.</strong></em> Explain, in general terms, how unary operators can be incorporated into the expression evaluators. Assume that the unary operators precede their operands and have high precedence.</p>
 <h2 id=assignment>Assignment</h2>
-<p>Read through all of the exercises before starting. This is a lot of work, so I suggest that your group works on exercise 1 and exercise 2 in parallel. Then you exchange code and get back together to do the third exercise.</p>
-<p>You can use this eclipse project <a href=https://github.com/LiFaytheGoblin/Lab06_ReversePolishNotation>Lab06_ReversePolishNotation</a> as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces.</p>
+<h3 id=preparation>Preparation</h3>
+<ol>
+<li>Read through all of the exercises before starting.</li>
+<li>You can use this IntelliJ project <a href=https://gl-imi.f4.htw-berlin.de/info2-code-stubs-and-samples/lab06_reversepolishnotation>Lab06_ReversePolishNotation</a> as a scaffold for your solution - it already includes a lot of test cases as well as the interfaces. Clone the repo and set it as upstream, while creating a new repo for you to work with in this week&rsquo;s GitLab folder.</li>
+<li>This is a lot of work, so I suggest that your group works on exercise 1 and exercise 2 in parallel. So split up the work.</li>
+<li>For each of the parallel exercises, create a separate git branch to work on (after you cloned the project, do <code>git checkout -b "stack-class"</code> (&ldquo;stack-class&rdquo; could be a name for a branch, but you could name it anything).</li>
+<li>After you both finished, push your branch and on GitLab, create a pull request (aka merge request).</li>
+<li>Merge the two branches into <code>master</code>, one after the other. If you find merge conflicts you will need to resolve them.</li>
+<li>Then you get back together to do the remaining exercises.</li>
+</ol>
 <h3 id=part-1-stack-class>Part 1: Stack Class</h3>
 <ul>
 <li>Implement a class Stack.java as discussed in the lecture, using a <em>linked list</em> of objects that you implement yourself.</li>
@@ -216,7 +227,7 @@ This is necessary for the evaluation, luckily your partner is currently in the p
 <ul>
 <li>Will you really need both exceptions? Why or why not?</li>
 </ul>
-<p>Please do not put answers for the pre-lab into the lab report. I will not look at them. The lab hangout is for discussing the pre-lab.</p>
+<p>Please do not put answers for the pre-lab into the lab report. I will not look at them. The lab is for discussing the pre-lab.</p>
 </div>
 </div>
 </div>
