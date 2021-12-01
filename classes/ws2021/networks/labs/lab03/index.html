@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title>B9 Networks WS 2021/22 - Labs - STAGING DRAFTS --- Prof. Dr. Barne Kleinen</title>
+<title>Lab 03 - TCP and UDP - STAGING DRAFTS --- Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/stagingdrafts//favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -95,7 +95,8 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/>classes</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/>ws2021</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/>networks</a></li>
-<li class="breadcrumb-item active" aria-current=page>labs</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab03</li>
 </ol>
 </nav>
 </div>
@@ -129,16 +130,81 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 </ul>
 </div>
 <div class=container-fluid>
-<h2 id=labs>Labs</h2>
-<p>
+<h2 class=followed> Lab 03 - TCP and UDP</h2>
+<header class=following>
+<a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
+Table of Contents
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/labs/lab02_ch02/>&lt;prev</a>
+</header>
+<div class=collapse id=tocContent>
+<nav id=TableOfContents>
 <ul>
-<li><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/labs/lab00_intro/>Lab 00 - Intro</a></li>
-<li><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/labs/lab01_ch01/>Lab 01 - Nginx & HTTP</a></li>
-<li><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/labs/lab02_ch02/>Lab 02 - Application Layer</a></li>
-<li><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/labs/lab03/>Lab 03 - TCP and UDP</a></li>
+<li><a href=#part-1-udp-pinger>Part 1: UDP Pinger</a></li>
+<li><a href=#part-2-lab-exercises>Part 2: Lab Exercises</a>
+<ul>
+<li><a href=#assignment-a-sockets-in-tcp-and-udp>Assignment A: Sockets in TCP and UDP</a></li>
+<li><a href=#assignment-b-fsm-for-rdt-30-receiver-side>Assignment B: FSM for rdt 3.0 receiver side</a></li>
+<li><a href=#assignment-c-fsm-for-alternating-protocol>Assignment C: FSM for alternating protocol</a></li>
 </ul>
-The lab assignments will be published here 1 week before the topic starts.</p>
-<p><a href=https://bkleinen.github.io/stagingdrafts/grading/guideline/>More about Lab Reports and Grading</a></p>
+</li>
+<li><a href=#part-3-wireshark-labs-for-tcp--udp>Part 3: Wireshark Labs for TCP & UDP</a>
+<ul>
+<li><a href=#lab-report>Lab Report</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<p>This lab summarizes lecture and lab assignments around chapter 03 (as well as
+some more aspects of chapter 02)</p>
+<p>The Labs - every Wednesday at 17:30 - are open to both Groups, for all questions.</p>
+<p>You need to include all parts in your lab report for this assignment.</p>
+<h2 id=part-1-udp-pinger>Part 1: UDP Pinger</h2>
+<p>The assignment is to create the UDP Pinger client part as described on page 205f.
+in the Textbook. The assignment is also availabe in Moodle,
+&ldquo;Assignment 2: UDP Pinger (Part of our Lab 3)&rdquo;
+The sceleton code and the server can be found here:
+<a href=https://github.com/htw-imi-networks/python-programming-assignments>htw-imi-networks/python-programming-assignments</a></p>
+<h2 id=part-2-lab-exercises>Part 2: Lab Exercises</h2>
+<h3 id=assignment-a-sockets-in-tcp-and-udp>Assignment A: Sockets in TCP and UDP</h3>
+<p>In Section 2.7, the UDP server described needed only one socket,
+whereas the TCP server needed two sockets. Why? If the TCP server were to
+support n simultaneous connections, each from a different client host, how many
+sockets would the TCP server need?</p>
+<p>Discuss this in your team and include a written answer in your lab report.</p>
+<h3 id=assignment-b-fsm-for-rdt-30-receiver-side>Assignment B: FSM for rdt 3.0 receiver side</h3>
+<p>Draw the FSM for the receiver side of protocol rdt 3.0.</p>
+<h3 id=assignment-c-fsm-for-alternating-protocol>Assignment C: FSM for alternating protocol</h3>
+<p>Consider two network entities, A and B, which are connected by a perfect
+bi-directional channel (no data loss or corruption, messages are deliverd in
+order). A and B are to deliver messages to each other in an alternaating manner:</p>
+<ol>
+<li>A must deliver message to B</li>
+<li>B must deliver message to A</li>
+<li>A must deliver message to B</li>
+<li>etc.</li>
+</ol>
+<p>If an entitiy is in a state where it should not attemt to deliver a message to
+the other side, and there is an event like rdt_send(data) call from above, this
+call can simply be ignored and answered with tdt_unable_to_send(data)</p>
+<p>Draw a FSM specification for this prototcol (one FSM for A, one for B).
+You should use the appropriate events and actions from the protocol rdt 1.0
+in Figure 3.9</p>
+<h2 id=part-3-wireshark-labs-for-tcp--udp>Part 3: Wireshark Labs for TCP & UDP</h2>
+<p>We continue working on the
+<a href=https://gaia.cs.umass.edu/kurose_ross/wireshark.php>Wireshark-Labs</a>.</p>
+<p>Download the Version 8.1. of the Labs &ldquo;TCP&rdquo; and &ldquo;UDP&rdquo; and work through them.</p>
+<p>Provide the answers to the questions in your lab report.</p>
+<h3 id=lab-report>Lab Report</h3>
+<p>Prepare a Lab Report together as PDF structured like this Lab Assignment.
+You may work on the reports in flexible teams of 2-3 students.</p>
+<p>Always put the names of all contributing people on your report.</p>
+<p>Each one of you has to hand in the completed Report individually in moodle
+by Friday 17:00 after the second lab meeting!</p>
+<p>In your report, describe what you did and what you found,
+as well as errors or problems you&rsquo;ve encountered.</p>
 </div>
 </div>
 </div>
