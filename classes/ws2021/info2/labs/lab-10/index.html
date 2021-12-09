@@ -156,19 +156,19 @@ Table of Contents
 S-Bahn Ring generated with <a href=https://github.com/bkleinen/bvg-graph>https://github.com/bkleinen/bvg-graph</a> based on OpenStreetMap</p>
 <h2 id=pre-lab>Pre-Lab</h2>
 <p><em><strong>P1.</strong></em> Define an interface data type for a weighted graph. What methods does it need? What are the signatures?</p>
-<p><em><strong>P2.</strong></em> Read on Depth-First-Search and Dijkstra Algorithm to compute the shortest and cheapest path in a given graph. We&rsquo;ve covered them in class, also.</p>
-<p><em><strong>P3.</strong></em> Your algorithm will probably need an adjacency matrix oder an adjacency list as its data structure. Think about how you would implement such a structure, if you only had linked lists available. What methods will you need for your data structure?</p>
+<p><em><strong>P2.</strong></em> Read up on Depth-First-Search to compute a path in a given graph. Sketch the algorithm on paper. Do you have an idea how you could find the <em>shortest</em> path, instead of just a path?</p>
+<p><em><strong>P3.</strong></em> Read up un Dijkstra Algorithm to compute the shortest path in a given graph. Sketch the algorithm on paper.</p>
+<p><em><strong>P4.</strong></em> Your algorithm will probably need an adjacency matrix or an adjacency list as its data structure. Think about how you would implement such a structure, if you only had linked lists available. What methods will you need for your data structure?</p>
 <h2 id=assignment>Assignment</h2>
 <p>Read through everything first and think about who will do what. Our goal is to write a program to determine how to get from A to B, either fast or cheap. We first need some test data.</p>
 <ol>
 <li>Design and implement a data type WeightedGraph that uses either an adjacency list or an adjacency matrix.</li>
 <li>While one partner is doing this, the other one should write a class that reads a graph from a file. See notes on the file format and the example file below!</li>
-<li>Now write a method that will take a graph and two vertices and find the <em>shortest</em> path between the vertices. Make a method to print out the path in a readable format.</li>
-<li>Meanwhile, your partner writes a method that takes a graph, picks two vertices at random, and finds the <em>cheapest</em> path between the two.</li>
+<li>Meanwhile, your partner writes a method that takes a graph, picks two vertices at random, and finds the shortest path, that is, the one with the least travelling time. Make a method to print out the path in a readable format.</li>
 <li>Starting from S Schöneweide Bhf (Berlin) compute the shortest travel times to the 4 Stations below.</li>
 </ol>
 <p>Your Dijkstra implementations should yield the following travel times:</p>
-<p>(Which is a plausible result given that the Algorithm/Graph doesn&rsquo;t consider Time spent in Stations.)</p>
+<p>(Which is a plausible result given that the graph doesn&rsquo;t consider time spent in atations.)</p>
 <h2 id=for-the-bored>For the bored</h2>
 <ol start=5>
 <li>Use your data structure to print out all the vertices n steps from a given vertex.</li>
