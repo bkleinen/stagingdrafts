@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title>Web Applications WS2021/2022 - Graded Assignments - STAGING DRAFTS --- Prof. Dr. Barne Kleinen</title>
+<title>Lab 04 - Network Layer - Data Plane - STAGING DRAFTS --- Prof. Dr. Barne Kleinen</title>
 <link rel=icon href=https://bkleinen.github.io/stagingdrafts//favicon.ico>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -27,7 +27,7 @@ running on <a href=https://bkleinen.github.io/stagingdrafts/>https://bkleinen.gi
 <div class="col-md-10 c1 p-2"><div class=container-flex>
 <div class=row>
 <div class=col-9>
-<h1 class="c5 title"> WT1 Web Applications WS 2021/22 </h1>
+<h1 class="c5 title"> B9 Networks WS 2021/22 - Labs </h1>
 <small>Website of <a href=https://bkleinen.github.io/stagingdrafts//>Prof. Dr. Barne Kleinen</a>, Professor for Media Informatics
 (<a href=https://imi-bachelor.htw-berlin.de>Bachelor</a>/<a href=https://imi-master.htw-berlin.de>Master</a>)
 at <a href=https://www.htw-berlin.de>HTW Berlin</a>
@@ -94,100 +94,101 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/>Home</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/>classes</a></li>
 <li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/>ws2021</a></li>
-<li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/m-wt1-webapplications/>m-wt1-webapplications</a></li>
-<li class="breadcrumb-item active" aria-current=page>_assignments</li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/>networks</a></li>
+<li class=breadcrumb-item><a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/labs/>labs</a></li>
+<li class="breadcrumb-item active" aria-current=page>lab04</li>
 </ol>
 </nav>
 </div>
 <div class=coursenav>
 <ul class="nav nav-tabs">
 <li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/m-wt1-webapplications/>M-WT1</a>
+<a class=nav-link href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/>Overview</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/m-wt1-webapplications/schedule/>Schedule</a>
+<a class=nav-link href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/schedule/>Schedule</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/m-wt1-webapplications/sprint/>Sprint</a>
+<a class=nav-link href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/flipped/>Flipped Classroom</a>
 </li>
 <li class=nav-item>
-<a class="nav-link active" href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/m-wt1-webapplications/assignments/>Assignments</a>
+<a class=nav-link href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/resources/>Resources</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/labs/>Labs</a>
 </li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" data-bs-toggle=dropdown href=# role=button aria-expanded=false>External Links</a>
 <div class=dropdown-menu>
-<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=33322">Moodle</a>
-<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=178201">LSF</a>
-<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=1&r_zuordabstgv.sembisint=4&k_abstgv.abstgvnr=312">Semesterstundenplan im LSF</a>
-<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-wt1-ws2021>GitHub Organization</a>
-<a class=dropdown-item target=ex_link href=https://github.com/imiwebtec>GitHub Book</a>
+<a class=dropdown-item target=ex_link href="https://moodle.htw-berlin.de/course/view.php?id=33323">Moodle</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=178930">SU in LSF</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=179397">Lab in LSF</a>
+<a class=dropdown-item target=ex_link href=https://github.com/htw-imi-networks>GitHub</a>
+<a class=dropdown-item target=ex_link href="https://lsf.htw-berlin.de/qisserver/rds?state=wplan&act=stg&pool=stg&show=plan&P.vx=kurz&r_zuordabstgv.semvonint=2&r_zuordabstgv.sembisint=2&k_abstgv.abstgvnr=231">Semesterstundenplan im LSF</a>
 </div>
 </li>
 </ul>
 </div>
 <div class=container-fluid>
-<h2 class=followed> Web Applications WS2021/2022 - Graded Assignments</h2>
+<h2 class=followed> Lab 04 - Network Layer - Data Plane</h2>
 <header class=following>
 <a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>
 Table of Contents
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/m-wt1-webapplications/schedule/>&lt;prev</a>
+<a href=https://bkleinen.github.io/stagingdrafts/classes/ws2021/networks/labs/lab03/>&lt;prev</a>
 </header>
 <div class=collapse id=tocContent>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#graded-assignments--mon-1930>Graded Assignments / Mon 19:30</a></li>
-<li><a href=#1-project-descriptions--technical-challenge>1. Project Descriptions / Technical Challenge</a></li>
-<li><a href=#2-cicd>2. CI/CD</a></li>
-<li><a href=#infrastructure-parts-one-for-each-group>Infrastructure Parts (one for each group)</a></li>
+<li><a href=#chapter-04>Chapter 04</a></li>
+<li><a href=#part-1-ip-adresses>Part 1: IP Adresses</a>
+<ul>
+<li><a href=#a-determine-address-blocks-and-locations>A. determine Address Blocks and Locations</a></li>
+<li><a href=#b-private-addresses>B. Private Addresses</a></li>
+</ul>
+</li>
+<li><a href=#part-2-wireshark-labs-for-ip>Part 2: Wireshark Labs for IP</a>
+<ul>
+<li><a href=#lab-report>Lab Report</a></li>
+</ul>
+</li>
 </ul>
 </nav>
 </div>
-<h2 id=graded-assignments--mon-1930>Graded Assignments / Mon 19:30</h2>
-<ol>
-<li>Project Descriptions / Technical Challenge</li>
-<li>CI/CD Documentation</li>
-<li>Book Chapters for Review</li>
-<li>(Peer-) Reviews of Book Chapters</li>
-<li>Usability Assessments</li>
-<li>Security Assessments</li>
-<li>Final Book Chapters</li>
-<li>Documentation of Infrastructure-Part</li>
-<li>Final Project Documentation</li>
-</ol>
-<h2 id=1-project-descriptions--technical-challenge>1. Project Descriptions / Technical Challenge</h2>
-<p>Outline your Project. Include</p>
-<ul>
-<li>Names of all Contributers</li>
-<li>Technological Challenge</li>
-<li>Technical Design</li>
-</ul>
-<h2 id=2-cicd>2. CI/CD</h2>
-<p>Set up Continuous Integration and - Deployment for your project. You don&rsquo;t need
-to have 100% or even 60% code coverage necessarily, but consider carefully what
-to do and answer the questions in your report.</p>
-<ul>
-<li>Set up Continuous Integration with
-<ul>
-<li>Automated Tests: Which tests should you have to most effectively ensure
-that your app is still working after a change? Which are the most important
-features, how can you test most effectively? (think UI Tests vs Unit test, see <a href=https://martinfowler.com/articles/practical-test-pyramid.html>The Practical Test Pyramid</a>)</li>
-<li>Code Quality Assurance - find and test one code quality assurance tool</li>
-<li>How does your deployment pipeline look like? which steps are automatic, which
-require manual interaction and which one? see <a href=https://martinfowler.com/bliki/DeploymentPipeline.html>DeploymentPipeline</a>.</li>
-</ul>
-</li>
-<li>Set up Continuous Deployment to  HTW Server using Docker Containers</li>
-</ul>
-<h2 id=infrastructure-parts-one-for-each-group>Infrastructure Parts (one for each group)</h2>
-<ol>
-<li>Server Setup and Administration</li>
-<li>Hugo Setup and Administration</li>
-<li>Overview Pages Webbook, Projects</li>
-<li>Git Repos Organisation</li>
-<li>Overview Page CI/CD Pipelines</li>
-</ol>
+<p>This lab summarizes lecture and lab assignments around chapter 04 of the textbook.</p>
+<p>The Labs - every Wednesday at 17:30 - are open to both Groups, for all questions.</p>
+<p>You need to include all parts in your lab report for this assignment.</p>
+<h2 id=chapter-04>Chapter 04</h2>
+<p>This will be a short lab & report briefly before christmas.</p>
+<h2 id=part-1-ip-adresses>Part 1: IP Adresses</h2>
+<h3 id=a-determine-address-blocks-and-locations>A. determine Address Blocks and Locations</h3>
+<p>(similar to P16 in the book)
+Use the whois service at the American Registry for Internet Numbers -
+<a href=https://search.arin.net/rdap/>ARIN Whois/RDAP - American Registry for Internet Numbers</a> - to determine the IP address blocks for the three universities in Berlin as
+well as the HTW and BHT. Hint: you may need to find out the/one ip addresses first.
+Caan the whois services be used to determine with certainty the geographical location of a specific IP address?
+Use <a href=http://www.maxmind.com>www.maxmind.com</a> to determine the locations of the Web servers at each of these universities.</p>
+<p>Now try the same from home / using your private ISP connection. What can you
+learn about your ISP and your location using this services? (You may want to do
+this for each person in your team and compare the results.)</p>
+<p>If you haven&rsquo;t so far, try it with the ip for tu-berlin.de.</p>
+<h3 id=b-private-addresses>B. Private Addresses</h3>
+<p>(R29) What is a private network address? Should a datagram with a private
+network address ever be present in the larger public Internet? Explain.</p>
+<h2 id=part-2-wireshark-labs-for-ip>Part 2: Wireshark Labs for IP</h2>
+<p>We continue working on the
+<a href=https://gaia.cs.umass.edu/kurose_ross/wireshark.php>Wireshark-Labs</a>.</p>
+<p>Download the Version 8.1. of the Lab &ldquo;IP&rdquo; work through it.</p>
+<p>Provide the answers to the questions in your lab report.</p>
+<h3 id=lab-report>Lab Report</h3>
+<p>Prepare a Lab Report together as PDF structured like this Lab Assignment.
+You may work on the reports in flexible teams of 2-3 students.</p>
+<p>Always put the names of all contributing people on your report.</p>
+<p>Each one of you has to hand in the completed Report individually in moodle
+by Friday 17:00 after the second lab meeting!</p>
+<p>In your report, describe what you did and what you found,
+as well as errors or problems you&rsquo;ve encountered.</p>
 </div>
 </div>
 </div>
