@@ -17,14 +17,13 @@ at <a href=https://www.htw-berlin.de>HTW Berlin</a></small></div><div class=col-
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href=https://bkleinen.github.io/stagingdrafts/classes/ss2018/info1/labs/exercise-01/>&lt;prev</a>
 <a href=https://bkleinen.github.io/stagingdrafts/classes/ss2018/info1/labs/exercise-03/>next></a></header><div class=collapse id=tocContent><nav id=TableOfContents><ul><li><a href=#pre-lab>Pre-lab</a><ul><li></li></ul></li><li><a href=#post-lab-aka-what-to-turn-in>Post-Lab, AKA What To Turn In</a></li><li><a href=#assignment>Assignment</a></li></ul></nav></div><p><img src=../../images/ticket-5277919863_b741ccde84_b.jpg alt=Book>
-Printed Ticket. <a href=https://www.flickr.com/photos/sludgeulper/5277919863/>Sludge G</a></p><h2 id=pre-lab>Pre-lab</h2><h4 id=what-to-bring-to-lab>What to Bring to Lab</h4><p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.</p><p><strong>P1.</strong> What could be wrong with the following constructor? Don&rsquo;t execute it, think about it in your head.</p><p>{% highlight java %}
-public TicketMachine (int ticketCost)
-{
-int price = ticketCost;
-balance = 0;
-total = 0;
-}
-{% endhighlight %}</p><p><strong>P2.</strong> How can you tell the difference between a method and a constructor just by looking at its header?</p><p><strong>P3.</strong> What do you think would be printed if you altered the fourth statement of printTicket so that price also has quotes around it, as follows:
+Printed Ticket. <a href=https://www.flickr.com/photos/sludgeulper/5277919863/>Sludge G</a></p><h2 id=pre-lab>Pre-lab</h2><h4 id=what-to-bring-to-lab>What to Bring to Lab</h4><p>Please bring these exercises printed out or written out with you to lab. Please have your name on your page.</p><p><strong>P1.</strong> What could be wrong with the following constructor? Don&rsquo;t execute it, think about it in your head.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=kd>public</span> <span class=nf>TicketMachine</span> <span class=o>(</span><span class=kt>int</span> <span class=n>ticketCost</span><span class=o>)</span>
+</span></span><span class=line><span class=cl><span class=o>{</span>
+</span></span><span class=line><span class=cl>   <span class=kt>int</span> <span class=n>price</span> <span class=o>=</span> <span class=n>ticketCost</span><span class=o>;</span>
+</span></span><span class=line><span class=cl>   <span class=n>balance</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+</span></span><span class=line><span class=cl>   <span class=n>total</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+</span></span><span class=line><span class=cl><span class=o>}</span>
+</span></span></code></pre></div><p><strong>P2.</strong> How can you tell the difference between a method and a constructor just by looking at its header?</p><p><strong>P3.</strong> What do you think would be printed if you altered the fourth statement of printTicket so that price also has quotes around it, as follows:
 System.out.println("# " + &ldquo;price&rdquo; + " cents.");
 Don&rsquo;t execute this, just write down your expectations.</p><p><strong>P4.</strong> What about the following version?
 <code>System.out.println("# price cents.");</code></p><p>If you will be using your own laptop in the lab, please install <a href=https://www.bluej.org/>BlueJ</a> before you come to lab. <a href=https://www.bluej.org/>BlueJ</a> is available for all platforms - it&rsquo;s Java!</p><h2 id=post-lab-aka-what-to-turn-in>Post-Lab, AKA What To Turn In</h2><p>Your completed assignment, submitted in Moodle as a pdf,
