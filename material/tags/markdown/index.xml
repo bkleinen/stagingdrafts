@@ -3,8 +3,11 @@ Partial Templates | Hugo Shortcodes Render Markdown Some Markdown: - a - b **hig
 a b highlight Documentation Shortcodes | Hugo Create Your Own Shortcodes | Hugo Figures https://gohugo.io/content-management/shortcodes/#figure CRC Cards
 GetPage getPage: in getPage params: path: /material/hugo/hugocheatsheet
 getPage: Page(/material/hugo/hugoCheatsheet.md)
-Page(/material/hugo/hugoCheatsheet.md)</description></item><item><title>Hugo Markdown</title><link>https://bkleinen.github.io/stagingdrafts/material/hugo/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/material/hugo/markdown/</guid><description>This is something in between a playground and a cheatsheet for hugo markdown.
+Page(/material/hugo/hugoCheatsheet.md)
+Aliases map[info1:/classes/ss2022/info1 info2:/classes/ws2021/info2 m1-web:/classes/ws2021/m1-web networks:/classes/ss2022/networks project:/classes/ws2021/project theses:/classes/ws2021/theses wt1:/classes/ws2021/m-wt1-webapplications]
+Course link in spite of alias:
+in getPage params: path: /info1</description></item><item><title>Hugo Markdown</title><link>https://bkleinen.github.io/stagingdrafts/material/hugo/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/material/hugo/markdown/</guid><description>This is something in between a playground and a cheatsheet for hugo markdown.
 https://www.markdownguide.org/
 https://www.markdownguide.org/tools/hugo/
 Ordered Lists https://www.markdownguide.org/basic-syntax#ordered-lists
-One Ident Sublists 4 Spaces or 1 Tab more Numbering does not have to be correct in the source But the first number matters second 42 is not a 42 Without a one it is not even recognized as a list 42. But the first number matters 42.</description></item></channel></rss>
+One Ident Sublists 4 Spaces or 1 Tab more Numbering does not have to be correct in the source But the first number matters second 42 is not a 42 Without a one it is not even recognized as a list 42. But the first number matters 42. second 42 is not a 43 Two Code in Lists One Ident Sublists 4 Spaces or 1 Tab more Numbering does not have to be correct in the source But the first number matters</description></item></channel></rss>
