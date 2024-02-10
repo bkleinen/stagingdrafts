@@ -17,9 +17,15 @@ in
 &nbsp;
 <i><a href=https://bkleinen.github.io/stagingdrafts/tags/>Tags</a></i>:
 <a href=https://bkleinen.github.io/stagingdrafts/material/tags/markdown/>markdown</a>
+<a href=https://bkleinen.github.io/stagingdrafts/material/tags/hugo/>hugo</a>
 &nbsp;
 <i><a href=https://bkleinen.github.io/stagingdrafts/tools/>Tools</a></i>:
-<a href=https://bkleinen.github.io/stagingdrafts/material/tools/hugo/>hugo</a></small><header><a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>Table of Contents</a></header><div class=collapse id=tocContent><nav id=TableOfContents><ul><li><a href=#shortcodes-and-partials>Shortcodes and Partials</a><ul><li><a href=#shortcodes>Shortcodes</a></li></ul></li><li><a href=#getpage>GetPage</a><ul><li></li></ul></li><li><a href=#aliases>Aliases</a><ul><li></li></ul></li></ul></nav></div><h2 id=shortcodes-and-partials>Shortcodes and Partials</h2><p>Shortcodes are for markdown content, partials for templates.</p><ul><li><a href=https://gohugo.io/templates/partials/>Partial Templates | Hugo</a></li></ul><h3 id=shortcodes>Shortcodes</h3><h4 id=render-markdown>Render Markdown</h4>Some Markdown:
+<a href=https://bkleinen.github.io/stagingdrafts/material/tools/hugo/>hugo</a></small><header><a data-bs-toggle=collapse href=#tocContent role=button aria-expanded=false aria-controls=tocContent>Table of Contents</a></header><div class=collapse id=tocContent><nav id=TableOfContents><ul><li><a href=#shortcodes-and-partials>Shortcodes and Partials</a><ul><li><a href=#documentation>Documentation</a></li><li><a href=#shortcodes>Shortcodes</a></li></ul></li><li><a href=#getpage>GetPage</a><ul><li></li></ul></li><li><a href=#aliases>Aliases</a><ul><li></li></ul></li></ul></nav></div><h2 id=shortcodes-and-partials>Shortcodes and Partials</h2><ul><li><p><strong>Difference:</strong>
+Shortcodes can be included in Markdown, partials only in Layouts.
+For reuse (usage of partials both in layout templates and directly from markdown)
+a shortcode needs to be defined that references the partial.</p></li><li><p><a href=https://gohugo.io/templates/partials/>Partial Templates | Hugo</a></p></li></ul><h3 id=documentation>Documentation</h3><ul><li><a href=https://gohugo.io/content-management/shortcodes/>Shortcodes | Hugo</a></li><li><a href=https://gohugo.io/templates/shortcode-templates/>Create Your Own Shortcodes | Hugo</a></li></ul><h3 id=shortcodes>Shortcodes</h3><p>Syntax: example:</p><p>{{&lt;alert warning>}}
+warning level alert
+{{&lt;/alert>}}</p><div class="alert alert-warning" role=alert>warning level alert</div><p>&ndash;</p><h4 id=render-markdown>Render Markdown</h4>Some Markdown:
 - a
 - b
 **highlight**<p>Some Markdown:</p><ul><li>a</li><li>b
