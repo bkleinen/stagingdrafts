@@ -11,8 +11,7 @@ You can hand in your weekly notes for additional points .&lt;/p>
 them out and work on them with real pens.&lt;/p>
 &lt;h2 id="bind-them-to-an-a5-workbook">Bind them to an A5 Workbook&lt;/h2>
 &lt;p>They will be provided in a format that allows you to bind them as a book
-later if you wish to.&lt;/p></description></item><item><title>Exercise 08: Bouncing Balls</title><link>https://bkleinen.github.io/stagingdrafts/classes/ws2023/info1/labs-archive/exercise-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ws2023/info1/labs-archive/exercise-08/</guid><description>&lt;!-- raw HTML omitted -->
-&lt;p>This week&amp;rsquo;s lab work is intended give you practice working with the basic concepts of programming.&lt;/p>
+later if you wish to.&lt;/p></description></item><item><title>Exercise 08: Bouncing Balls</title><link>https://bkleinen.github.io/stagingdrafts/classes/ws2023/info1/labs-archive/exercise-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ws2023/info1/labs-archive/exercise-08/</guid><description>&lt;p>This week&amp;rsquo;s lab work is intended give you practice working with the basic concepts of programming.&lt;/p>
 &lt;h2 id="pre-lab">Pre Lab&lt;/h2>
 &lt;p>Prepare your prelab before coming to class! Doing the pre-lab will save you time during the lab.&lt;/p>
 &lt;p>&lt;strong>P0&lt;/strong>. Download and open the &lt;a href="https://github.com/htw-imi-info1/exercise08">Balls project&lt;/a> (concerns Chapter 06 in the book). Create a BallDemo object and execute the drawDemo and bounce methods. Then read the BallDemo source code. Describe, in detail, how these methods work for your report.&lt;/p></description></item></channel></rss>
