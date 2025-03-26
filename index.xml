@@ -6813,7 +6813,148 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 &lt;li>I know the difference between classes and objects.&lt;/li>
 &lt;li>I can instantiate an object.&lt;/li>
 &lt;/ul>
-&lt;p>I remember programming concepts concerning fields and variable types:&lt;/p></description></item><item><title>Info2: Exercise 08: Multi-Threaded Chat Application</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2024/info2/labs/lab-08-chat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2024/info2/labs/lab-08-chat/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+&lt;p>I remember programming concepts concerning fields and variable types:&lt;/p></description></item><item><title>B WT1 Verteilte Systeme Summer 2025 - Schedule</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/schedule/</guid><description>&lt;p>This schedule is, as always, tentative and will be adapted throughout the term if necessary.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Woche&lt;/th>
+ &lt;th style="text-align: left">KW&lt;/th>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Lecture&lt;/th>
+ &lt;th style="text-align: left">Labs (Thu+Tue)&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">Thu 03/04/2025, Tue 08/04/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; Einführungswoche &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">15&lt;/td>
+ &lt;td style="text-align: left">Thu 10/04/2025, Tue 15/04/2025&lt;/td>
+ &lt;td style="text-align: left">Intro to the class, Introduction to distributed Systems&lt;/td>
+ &lt;td style="text-align: left">Lab 01: Building a Static Web Application / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-01-static-node-app/">Lab 01 - Building a Static Web Application&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">16&lt;/td>
+ &lt;td style="text-align: left">Thu 17/04/2025, Tue 22/04/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 2, Architectures&lt;/td>
+ &lt;td style="text-align: left">Lab 02: Building a First Express Application / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-02-first-express-app">Lab 02 - Building a First Express Application&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">17&lt;/td>
+ &lt;td style="text-align: left">Thu 24/04/2025, Tue 29/04/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 2, Architectures&lt;/td>
+ &lt;td style="text-align: left">Lab 04: Adding Mongo Support / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-04-mongo">Lab 04 - Adding Mongo Support&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">x&lt;/td>
+ &lt;td style="text-align: left">18&lt;/td>
+ &lt;td style="text-align: left">Thu 01/05/2025, Tue 06/05/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; Tag der Arbeit &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">x&lt;/td>
+ &lt;td style="text-align: left">19&lt;/td>
+ &lt;td style="text-align: left">Thu 08/05/2025, Tue 13/05/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; Feiertag* &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">20&lt;/td>
+ &lt;td style="text-align: left">Thu 15/05/2025, Tue 20/05/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 3, Processes&lt;/td>
+ &lt;td style="text-align: left">Lab 05: Understanding Promises / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-05-promises">Lab 05 - Understanding Promises&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">21&lt;/td>
+ &lt;td style="text-align: left">Thu 22/05/2025, Tue 27/05/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 4, Communication&lt;/td>
+ &lt;td style="text-align: left">Lab 06: Supporting Complex Models / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-06-complex-models">Lab 06 - Supporting Complex Models&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">x&lt;/td>
+ &lt;td style="text-align: left">22&lt;/td>
+ &lt;td style="text-align: left">Thu 29/05/2025, Tue 03/06/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;mdash; Himmelfahrt &amp;mdash;&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">7&lt;/td>
+ &lt;td style="text-align: left">23&lt;/td>
+ &lt;td style="text-align: left">Thu 05/06/2025, Tue 10/06/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 5, Coordination&lt;/td>
+ &lt;td style="text-align: left">Lab 07: Adding CRUD Support / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-07-crud">Lab 07 - Adding CRUD Support&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">8&lt;/td>
+ &lt;td style="text-align: left">24&lt;/td>
+ &lt;td style="text-align: left">Thu 12/06/2025, Tue 17/06/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 5, Coordination&lt;/td>
+ &lt;td style="text-align: left">Lab 08: Adding Login Support / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-08-login">Lab 08 - Adding Login Support&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">9&lt;/td>
+ &lt;td style="text-align: left">25&lt;/td>
+ &lt;td style="text-align: left">Thu 19/06/2025, Tue 24/06/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 6, Naming&lt;/td>
+ &lt;td style="text-align: left">Lab 09: Adding Support for Passport.js / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-09-passport">Lab 09 - Adding Support for Passport.js&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10&lt;/td>
+ &lt;td style="text-align: left">26&lt;/td>
+ &lt;td style="text-align: left">Thu 26/06/2025, Tue 01/07/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 7, Consistency and Replication&lt;/td>
+ &lt;td style="text-align: left">Lab 10: Building a REST API / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-10-rest">Lab 10 - Building a REST API&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11&lt;/td>
+ &lt;td style="text-align: left">27&lt;/td>
+ &lt;td style="text-align: left">Thu 03/07/2025, Tue 08/07/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 8, Fault Tolerance&lt;/td>
+ &lt;td style="text-align: left">Lab 11: Securing a REST API / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-11-securing-rest">Lab 11 - Securing a REST API&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12&lt;/td>
+ &lt;td style="text-align: left">28&lt;/td>
+ &lt;td style="text-align: left">Thu 10/07/2025, Tue 15/07/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 8, Fault Tolerance&lt;/td>
+ &lt;td style="text-align: left">Lab 12: Adding Support for Socket.io / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-12-socket">Lab 12 - Adding Support for Socket.io&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13&lt;/td>
+ &lt;td style="text-align: left">29&lt;/td>
+ &lt;td style="text-align: left">Thu 17/07/2025, Tue 22/07/2025&lt;/td>
+ &lt;td style="text-align: left">Chapter 9, Security&lt;/td>
+ &lt;td style="text-align: left">Trial Exams&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14&lt;/td>
+ &lt;td style="text-align: left">30&lt;/td>
+ &lt;td style="text-align: left">Thu 24/07/2025, Tue 29/07/2025&lt;/td>
+ &lt;td style="text-align: left">Exam (tentative date, check LSF!)&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Fri 25/07/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://showtime.f4.htw-berlin.de/">Showtime!&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="notes">Notes&lt;/h2>
+&lt;p>* 8.5.2025: einmaliger Feiertag anlässlich des 80. Jahrestags der Befreiung vom Nationalsozialismus und des Endes des zweiten Weltkriegs&lt;/p></description></item><item><title>Info2: Exercise 08: Multi-Threaded Chat Application</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2024/info2/labs/lab-08-chat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2024/info2/labs/lab-08-chat/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
 &lt;ol>
 &lt;li>
 &lt;p>Experiment with the Source Code Examples for Concurrency.&lt;/p>
@@ -8559,6 +8700,9 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+
+ 
+ 
  
  
 
@@ -8670,6 +8814,9 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+ 
+ 
+
  
  
 
@@ -8678,14 +8825,20 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+ 
+ 
 
+ 
  
  
  
+
  
+ 
 
  
  
+
  
  
 
@@ -8706,20 +8859,26 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+ 
+ 
 
+ 
  
  
+ 
 
  
  
 
  
  
+
  
  
 
  
  
+
  
  
 
@@ -8743,6 +8902,8 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+ 
+ 
 
  
  
@@ -8750,11 +8911,15 @@ if a given point in the square is as well within the circle.&lt;/p></description
  
  
 
+ 
  
  
+ 
 
+ 
  
  
+ 
 
  
  
@@ -8769,16 +8934,19 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+
  
  
 
  
  
+
  
  
 
  
  
+
  
  
 
@@ -8833,9 +9001,13 @@ if a given point in the square is as well within the circle.&lt;/p></description
  
  
 
+ 
  
  
+ 
 
+ 
+ 
  
  
 
@@ -8844,26 +9016,37 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+ 
+ 
 
+ 
  
  
+ 
 
  
  
 
+ 
  
  
+ 
 
+ 
  
  
+ 
 
  
  
  
  
 
+ 
+ 
  
  
+
  
  
 
@@ -8872,11 +9055,13 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+
  
  
 
  
  
+
  
  
 
@@ -8885,21 +9070,25 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+
  
  
 
  
  
+
  
  
 
  
  
+
  
  
 
  
  
+
  
  
 
@@ -10905,8 +11094,11 @@ if a given point in the square is as well within the circle.&lt;/p></description
  
  
 
+ 
  
  
+ 
+
  
  
 
@@ -12081,28 +12273,28 @@ Aktuelle Infos zu den Prüfungsterminen im LSF.&lt;/p></description></item><item
  &lt;td style="text-align: left">26 &lt;/td>
  &lt;td style="text-align: left">Wed 25/06/2025&lt;/td>
  &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;td style="text-align: left">Klaus Jung&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">14&lt;/td>
  &lt;td style="text-align: left">27 &lt;/td>
  &lt;td style="text-align: left">Wed 02/07/2025&lt;/td>
  &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Kai Barthel&lt;/td>
+ &lt;td style="text-align: left">Sebastian Knorr&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">15&lt;/td>
  &lt;td style="text-align: left">28 &lt;/td>
  &lt;td style="text-align: left">Wed 09/07/2025&lt;/td>
  &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;td style="text-align: left">Sebastian Knorr&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">16&lt;/td>
  &lt;td style="text-align: left">29 &lt;/td>
  &lt;td style="text-align: left">Wed 16/07/2025&lt;/td>
  &lt;td style="text-align: left">Visual Computing&lt;/td>
- &lt;td style="text-align: left">Nico Hezel&lt;/td>
+ &lt;td style="text-align: left">Sebastian Knorr&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: left">17&lt;/td>
@@ -23193,7 +23385,13 @@ we will use the time before really getting started to play around with basic
 web servers.&lt;/p>
 &lt;p>You should be able to do most or all of this with your own computers.
 We will build Teams during the first lab, but feel free to start working
-on the exercises&lt;/p></description></item><item><title>Lab 01 - Nginx &amp; HTTP</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2022/networks/labs/lab01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2022/networks/labs/lab01/</guid><description>&lt;h2 id="part-1-set-up-a-real-web-server-on-a-virtual-machine">Part 1: Set up a Real Web Server on a Virtual Machine&lt;/h2>
+on the exercises&lt;/p></description></item><item><title>Lab 01 - Building a Static Web Application</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-01-static-node-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-01-static-node-app/</guid><description>&lt;p>notes: github abgabe, sachen für den report - was soll rein, tag für die abgabe.&lt;/p>
+&lt;h4 id="agile-topic-project-ideas">Agile Topic: Project Ideas&lt;/h4>
+&lt;p>You will be working on one project throughout the term in a small, 3-5 person team.
+Collect and discuss your project ideas with other students. You can pitch your idea next week in class.&lt;/p>
+&lt;p>Write up a short project proposal for discussion in the next lab meeting, possibly together with other
+students. Develop some user stories for the product backlog. After this discussion we will decide on the
+different projects and the associated teams for the remainder of this class.&lt;/p></description></item><item><title>Lab 01 - Nginx &amp; HTTP</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2022/networks/labs/lab01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2022/networks/labs/lab01/</guid><description>&lt;h2 id="part-1-set-up-a-real-web-server-on-a-virtual-machine">Part 1: Set up a Real Web Server on a Virtual Machine&lt;/h2>
 &lt;p>We will do this part together in lab, where I will provide each group with
 a virtual server hosted at the HTW - you will install and configure nginx
 on port 80 on these machines.&lt;/p>
@@ -23245,7 +23443,17 @@ The Labs - every Wednesday at 17:30 - are open to both Groups, for all questions
 &lt;h2 id="part-1-email-and-http">Part 1: email and http&lt;/h2>
 &lt;h3 id="receiving-http-p12">Receiving HTTP (P12)&lt;/h3>
 &lt;p>Write or find a simple TCP program for a server that accepts lines of input
-from a client and prints the lines onto the server&amp;rsquo;s standard output.&lt;/p></description></item><item><title>Lab 03 - TCP and UDP</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2022/networks/labs/lab03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2022/networks/labs/lab03/</guid><description>&lt;p>This lab summarizes lecture and lab assignments around chapter 03 (as well as
+from a client and prints the lines onto the server&amp;rsquo;s standard output.&lt;/p></description></item><item><title>Lab 02 - Building a First Express Application</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-02-first-express-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-02-first-express-app/</guid><description>&lt;h4 id="agile-topic-product-owner">Agile Topic: Product Owner&lt;/h4>
+&lt;p>Name a product owner in your Scrum team. Set up your project and create a formal backlog as a plain text file (in the team but
+with the product owner leading). Note: we will not use a dedicated tool for managing backlogs in this class. Their use is too
+involved and therefore not in scope&lt;/p>
+&lt;h4 id="development-topic-installing-and-understanding-expressjs">Development Topic: Installing and Understanding Express.js&lt;/h4>
+&lt;p>Setup Express and understand the basic structure of the framework as described in Unit 2 of the book (lessons 8 and 9).&lt;/p></description></item><item><title>Lab 03 - Adding Views to the Express App</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-03-express-views/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-03-express-views/</guid><description>&lt;h4 id="agile-topic-scrum-master">Agile Topic: Scrum Master&lt;/h4>
+&lt;p>Name a Scrum Master from your team and have this person coordinate team meetings, such as the daily scrum.&lt;/p>
+&lt;h4 id="development-topic-adding-views-to-the-express-app">Development Topic: Adding Views to the Express App&lt;/h4>
+&lt;p>Add views and error handling to your application using Express.js (lessons 10, 11 and 12 of unit 2). If you&amp;rsquo;ve already
+created views in Sprint 01, you can migrate them to the Express app. Chose one or more stories where you can make use of
+the two new technological topics you&amp;rsquo;ve learned in Unit 2: View Templates and Dynamic Content.&lt;/p></description></item><item><title>Lab 03 - TCP and UDP</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2022/networks/labs/lab03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2022/networks/labs/lab03/</guid><description>&lt;p>This lab summarizes lecture and lab assignments around chapter 03 (as well as
 some more aspects of chapter 02)&lt;/p>
 &lt;p>The Labs - every Wednesday at 17:30 - are open to both Groups, for all questions.&lt;/p>
 &lt;p>You need to include all parts in your lab report for this assignment.&lt;/p>
@@ -23263,7 +23471,11 @@ some more aspects of chapter 02)&lt;/p>
 in the Textbook. The assignment is also availabe in Moodle,
 &amp;ldquo;Assignment 2: UDP Pinger (Part of our Lab 3)&amp;rdquo;
 The sceleton code and the server can be found here:
-&lt;a href="https://github.com/htw-imi-networks/python-programming-assignments">htw-imi-networks/python-programming-assignments&lt;/a>&lt;/p></description></item><item><title>Lab 04 - Legacy Code - Refactoring to Patterns</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2014/info3/labs/lab-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2014/info3/labs/lab-04/</guid><description>&lt;p>&lt;img src="../../images/The_Gilded_Rose.jpg" alt="The Gilded Rose">
+&lt;a href="https://github.com/htw-imi-networks/python-programming-assignments">htw-imi-networks/python-programming-assignments&lt;/a>&lt;/p></description></item><item><title>Lab 04 - Adding Mongo Support</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-04-mongo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-04-mongo/</guid><description>&lt;h4 id="agile-topic-daily-scrum">Agile Topic: Daily Scrum&lt;/h4>
+&lt;p>As one of the most frequent meetings, get into the habit of holding a daily stand up meeting to exchange with other team members.&lt;/p>
+&lt;h4 id="development-topic-adding-mongo-support">Development Topic: Adding Mongo Support&lt;/h4>
+&lt;p>Based on Unit 3, &amp;ldquo;Connecting to a Database&amp;rdquo;, you&amp;rsquo;ll implement persistence with Mongo DB and Mongoose (lessons 13-14). The functionality
+implemented will be showing listings and single items of one resource, as well as creating new records (no editing yet).&lt;/p></description></item><item><title>Lab 04 - Legacy Code - Refactoring to Patterns</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2014/info3/labs/lab-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2014/info3/labs/lab-04/</guid><description>&lt;p>&lt;img src="../../images/The_Gilded_Rose.jpg" alt="The Gilded Rose">
 &lt;!-- raw HTML omitted -->The Gilded Rose, Trade District, &lt;a href="https://wowwiki-archive.fandom.com/wiki/Gilded_Rose">World of Warcraft.&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;h2 id="assignment-gilded-rose-kata">Assignment: Gilded Rose Kata&lt;/h2>
 &lt;p>Source Code: There are three versions. Choose one. Have brief look at the
@@ -23300,7 +23512,86 @@ Use the whois service at the American Registry for Internet Numbers -
 &lt;a href="https://search.arin.net/rdap/">ARIN Whois/RDAP - American Registry for Internet Numbers&lt;/a> - to determine the IP address blocks for the three universities in Berlin as
 well as the HTW and BHT. Hint: you may need to find out the/one ip addresses first.
 Caan the whois services be used to determine with certainty the geographical location of a specific IP address?
-Use &lt;a href="https://www.maxmind.com">www.maxmind.com&lt;/a> to determine the locations of the Web servers at each of these universities.&lt;/p></description></item><item><title>Lab 13: Scrabble Cheater - Deluxe</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2024/info2/labs/lab-13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2024/info2/labs/lab-13/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
+Use &lt;a href="https://www.maxmind.com">www.maxmind.com&lt;/a> to determine the locations of the Web servers at each of these universities.&lt;/p></description></item><item><title>Lab 05 - Understanding Promises</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-05-promises/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-05-promises/</guid><description>&lt;h4 id="agile-topic-sprint-backlog">Agile Topic: Sprint Backlog&lt;/h4>
+&lt;p>Select items from the product backlog for the sprint backlog. Define a sprint goal by focussing on &amp;ldquo;what&amp;rdquo; should be delivered.&lt;/p>
+&lt;h4 id="development-topic-understanding-promises">Development Topic: Understanding Promises&lt;/h4>
+&lt;p>Based on lessons 15-16 of Unit 3, add controllers and promises to coordinate your interaction with the database.&lt;/p>
+&lt;h5 id="topic-of-the-week">Topic of the Week&lt;/h5>
+&lt;p>Promises&lt;/p>
+&lt;ul>
+&lt;li>Add controllers and promises to your application to coordinate your interaction with the database.&lt;/li>
+&lt;li>Work with git. Create a branch for each story and merge it into master with a merge commit like &amp;ldquo;Story_001 Overview of Study Program&amp;rdquo;
+&lt;ul>
+&lt;li>You may also clean your git history to just have one commit per story.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Tag the version where the sprint was completed with &amp;ldquo;Sprint_05&amp;rdquo;&lt;/li>
+&lt;li>Include the repo url in your status report (you can use any service, e.g. &lt;a href="https://gitlab.rz.htw-berlin.de/">https://gitlab.rz.htw-berlin.de/&lt;/a>)
+&lt;ul>
+&lt;li>Please use a public repository or grant read access to the lecturer&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="status-report">Status Report&lt;/h4>
+&lt;p>Write up a brief status report containing:&lt;/p></description></item><item><title>Lab 06 - Supporting Complex Models</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-06-complex-models/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-06-complex-models/</guid><description>&lt;h4 id="agile-topic-sprint-planning">Agile Topic: Sprint Planning&lt;/h4>
+&lt;p>Focus your sprint planning meeting on &amp;ldquo;how&amp;rdquo; to deliver the sprint backlog items, possibly adjusting a previously selected
+sprint goal as necessary.&lt;/p>
+&lt;h4 id="development-topic-supporting-complex-models">Development Topic: Supporting Complex Models&lt;/h4>
+&lt;p>Lessons 17 and 18 of Unit 4 cover model associations and validations using the example of a user model.&lt;/p>
+&lt;p>You will need such a model for authentication in addition to your domain models (i.e. models relevant for
+implemeting your business logic). You can just copy and adapt the user model from the example application,
+to ensure that it fits to your application domain.&lt;/p></description></item><item><title>Lab 07 - Adding CRUD Support</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-07-crud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-07-crud/</guid><description>&lt;h4 id="agile-topic-estimation">Agile Topic: Estimation&lt;/h4>
+&lt;p>Estimate the effort for individal backlog items by means of Planning Poker. Use the Fibonacci numbers
+0, 1, 2, 3, 5, 8, 13, and 21 for scoring.&lt;/p>
+&lt;h4 id="development-topic-adding-crud-support">Development Topic: Adding CRUD Support&lt;/h4>
+&lt;p>Lessons 19-21 of Unit 4 describe the necessary steps for adding CRUD (Create - Read - Update - Delete) support to a model.
+It describes how to implement CRUD functionality across models, views, controllers as well as by defining the appropriate routes.&lt;/p></description></item><item><title>Lab 08 - Adding Login Support</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-08-login/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-08-login/</guid><description>&lt;h4 id="agile-topic-definition-of-done">Agile Topic: Definition of Done&lt;/h4>
+&lt;p>Discuss the &amp;ldquo;Definition of Done&amp;rdquo; for the items in your sprint backlog.&lt;/p>
+&lt;h4 id="development-topic-adding-login-support">Development Topic: Adding Login Support&lt;/h4>
+&lt;p>Add support for user login, following lessons 22-23 of unit 5 of the book. Note that this unit only covers authentication
+but no authorisation. Restricting access to parts of the application will be handled during the next sprint.&lt;/p>
+&lt;h5 id="topic-of-the-week">Topic of the Week&lt;/h5>
+&lt;p>User login, password hashing:&lt;/p>
+&lt;ul>
+&lt;li>Add support for user login based on user id and password.&lt;/li>
+&lt;li>Work with git. Create a branch for each story and merge it into master with a merge commit like &amp;ldquo;Story_001 Overview of Study Program&amp;rdquo;
+&lt;ul>
+&lt;li>You may also clean your git history to just have one commit per story.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Tag the version where the sprint was completed with &amp;ldquo;Sprint_08&amp;rdquo;&lt;/li>
+&lt;li>Include the repo url in your status report (you can use any service, e.g. &lt;a href="https://gitlab.rz.htw-berlin.de/">https://gitlab.rz.htw-berlin.de/&lt;/a>)
+&lt;ul>
+&lt;li>Please use a public repository or grant read access to the lecturer&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="status-report">Status Report&lt;/h4>
+&lt;p>Write up a brief status report containing:&lt;/p></description></item><item><title>Lab 09 - Adding Support for Passport.js</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-09-passport/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-09-passport/</guid><description>&lt;h4 id="agile-topic-sprint-review">Agile Topic: Sprint Review&lt;/h4>
+&lt;p>Hold a sprint review meeting for the current sprint. What were the biggest technical obstacles that prevented you to reach the sprint goal?
+What would need to be adjusted to avoid these technical problems in the future?&lt;/p>
+&lt;h4 id="development-topic-adding-support-for-passportjs">Development Topic: Adding Support for Passport.js&lt;/h4>
+&lt;p>Lessons 24 and 25 describe the use of the Node module Passport.js. Follow along by implementing a user story from your backlog that relies
+on user authentication, either by means of the &amp;ldquo;local&amp;rdquo; strategy or by means of an external authentication provider (not covered in the book).&lt;/p></description></item><item><title>Lab 10 - Building a REST API</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-10-rest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-10-rest/</guid><description>&lt;h4 id="agile-topic-sprint-retrospective">Agile Topic: Sprint Retrospective&lt;/h4>
+&lt;p>Hold a sprint retrospective meeting for the current sprint. Discuss process and external issues that prevented you from working towards the sprint goal,
+e.g. capacity limitations. Agree on steps to improve the situation for upcoming sprints.&lt;/p>
+&lt;h4 id="development-topic-building-a-rest-api">Development Topic: Building a REST API&lt;/h4>
+&lt;p>Lessons 26 and 27 introduce RESTful APIs and describe the steps to add support for such APIs to your application. Choose a user story that benefits
+from a headless REST API and implement it in your application context.&lt;/p></description></item><item><title>Lab 11 - Securing a REST API</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-11-securing-rest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-11-securing-rest/</guid><description>&lt;h4 id="agile-topic">Agile Topic&lt;/h4>
+&lt;p>No specific agile topic to be covered in this sprint. Continue to follow the Scrum methodology in your development work, correcting any issues that
+you may encounter.&lt;/p>
+&lt;h4 id="development-topic-securing-a-rest-api">Development Topic: Securing a REST API&lt;/h4>
+&lt;p>Lessons 28 and 29 describe mechanisms to secure a RESTful API. Choose a user story that benefits from exposing a secure REST API and implement
+it in your application context.&lt;/p>
+&lt;h5 id="topic-of-the-week">Topic of the Week&lt;/h5>
+&lt;p>JWT:&lt;/p></description></item><item><title>Lab 12 - Adding Support for Socket.io</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-12-socket/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/labs/sprint-12-socket/</guid><description>&lt;h4 id="agile-topic">Agile Topic&lt;/h4>
+&lt;p>No specific agile topic to be covered in this sprint. Continue to follow the Scrum methodology in your development work, correcting any issues that
+you may encounter during the regular Scrum events.&lt;/p>
+&lt;h4 id="development-topic-adding-support-for-socketio">Development Topic: Adding Support for Socket.io&lt;/h4>
+&lt;p>Find something in your app that may benefit from real-time communication. Add support for this fuctionality following the instructions given in
+lessons 30 - 33 of unit 7.&lt;/p>
+&lt;h5 id="topic-of-the-week">Topic of the Week&lt;/h5>
+&lt;p>Socket.io:&lt;/p></description></item><item><title>Lab 13: Scrabble Cheater - Deluxe</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2024/info2/labs/lab-13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2024/info2/labs/lab-13/</guid><description>&lt;h2 id="pre-lab">Pre-Lab&lt;/h2>
 &lt;p>&lt;img src="../../images/scrabble_331161309_a8e6c6c3fd_o.jpg" alt="Scrabble" title="scrabble 1">
 Foto by &lt;a href="https://www.flickr.com/photos/derbeth/331161309/">Piotr&lt;/a>&lt;/p>
 &lt;ol>
