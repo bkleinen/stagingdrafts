@@ -11032,22 +11032,7 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
- 
- 
 
- 
- 
-
- 
- 
- 
- 
-
- 
- 
-
- 
- 
  
  
 
@@ -11074,6 +11059,27 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
 
  
  
@@ -11096,6 +11102,9 @@ if a given point in the square is as well within the circle.&lt;/p></description
 
  
  
+ 
+ 
+
  
  
 
@@ -15166,7 +15175,14 @@ angelegt:
 Über die dort enthaltenen Informationen hinaus
 gibt es unter &amp;ldquo;10. Onlinekurse und Ebooks&amp;rdquo; einige Hinweise auf Bücher aus dem UTB-Verlag. Bei mir haben die Links nicht funktioniert: erst im HTW-VPN
 anmelden (Full, nicht split&amp;hellip;), dann über die UTB-Seite suchen:
-&lt;a href="https://elibrary.utb.de/">https://elibrary.utb.de/&lt;/a> - Bücher sind als PDF verfügbar.&lt;/p></description></item><item><title>BlueJ Trick - Save your Object Bench using Test Fixtures</title><link>https://bkleinen.github.io/stagingdrafts/material/info1/save_object_bench/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/material/info1/save_object_bench/</guid><description>&lt;p>You can save and re-create your Object Bench with a trick that uses the Unit Test Support in BlueJ, especially “Object Bench to Test Fixture” “Test Fixture to Object Bench”:&lt;/p>
+&lt;a href="https://elibrary.utb.de/">https://elibrary.utb.de/&lt;/a> - Bücher sind als PDF verfügbar.&lt;/p></description></item><item><title>Bash Cheat Sheet</title><link>https://bkleinen.github.io/stagingdrafts/material/shell/bash-cheat-sheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/material/shell/bash-cheat-sheet/</guid><description>&lt;h3 id="preparations">Preparations&lt;/h3>
+&lt;h4 id="finding-a-shell">Finding a Shell&lt;/h4>
+&lt;p>On all *nix systems, you will already have a shell - if you run a graphical desktop, look for something called &amp;ldquo;terminal&amp;rdquo;.&lt;/p>
+&lt;p>On MacOS, there is the &lt;a href="https://support.apple.com/de-de/guide/terminal/welcome/mac">terminal.app&lt;/a> - I prefer &lt;a href="https://iterm2.com/">iTerm&lt;/a>.&lt;/p>
+&lt;p>On windows, use the &lt;a href="https://learn.microsoft.com/de-de/windows/wsl/">Windows Subsystem for Linux&lt;/a>. For quick tryouts you may already have a gitbash installed.&lt;/p>
+&lt;p>Another quick way to get a shell is using linux image within Docker, e.g.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">docker run -it ubuntu /bin/bash
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can also run a virtual machine on &lt;a href="https://learn.microsoft.com/en-us/linux/install">Windows&lt;/a>&lt;/p></description></item><item><title>BlueJ Trick - Save your Object Bench using Test Fixtures</title><link>https://bkleinen.github.io/stagingdrafts/material/info1/save_object_bench/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/material/info1/save_object_bench/</guid><description>&lt;p>You can save and re-create your Object Bench with a trick that uses the Unit Test Support in BlueJ, especially “Object Bench to Test Fixture” “Test Fixture to Object Bench”:&lt;/p>
 &lt;h3 id="1-save-the-state-of-your-object-bench">1. Save the state of your object bench&lt;/h3>
 &lt;p>Let’s say you have created a lot of objects manually and want to reuse them. To save the state of your Object Bench, first create a Test Class for an arbitrary class:
 &lt;img src="../save_object_bench/image_2.png" alt="">&lt;/p></description></item><item><title>Complexity of Algorithms</title><link>https://bkleinen.github.io/stagingdrafts/material/complexity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/material/complexity/</guid><description>&lt;p>Video-Kurs:
