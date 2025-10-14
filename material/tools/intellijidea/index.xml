@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IntellijIDEA on STAGING DRAFTS --- Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/stagingdrafts/material/tools/intellijidea/</link><description>Recent content in IntellijIDEA on STAGING DRAFTS --- Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/stagingdrafts/material/tools/intellijidea/index.xml" rel="self" type="application/rss+xml"/><item><title>IntelliJ</title><link>https://bkleinen.github.io/stagingdrafts/material/intellij/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/material/intellij/</guid><description>&lt;h2 id="learn-intellij">Learn IntelliJ&lt;/h2>
-&lt;p>There is now a guided way to learn this complex tool - this video introduces it:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=vsUx-kod2O4">Learn IntelliJ IDEA (2021) - YouTube&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="code-formatting">Code Formatting&lt;/h2>
-&lt;p>As soon as you share code using Source Code Management (e.g. Git), you
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IntellijIDEA on STAGING DRAFTS --- Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/stagingdrafts/material/tools/intellijidea/</link><description>Recent content in IntellijIDEA on STAGING DRAFTS --- Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/stagingdrafts/material/tools/intellijidea/index.xml" rel="self" type="application/rss+xml"/><item><title>IntelliJ</title><link>https://bkleinen.github.io/stagingdrafts/material/intellij/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/material/intellij/</guid><description>&lt;h2 id="learn-intellij"&gt;Learn IntelliJ&lt;/h2&gt;
+&lt;p&gt;There is now a guided way to learn this complex tool - this video introduces it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=vsUx-kod2O4"&gt;Learn IntelliJ IDEA (2021) - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="code-formatting"&gt;Code Formatting&lt;/h2&gt;
+&lt;p&gt;As soon as you share code using Source Code Management (e.g. Git), you
 should take care that everyone in the team uses the same code formatting -
 otherwise changes in formatting will make it hard to track and understand
-the real changes.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.jetbrains.com/help/idea/reformat-and-rearrange-code.html">Reformat and rearrange code | IntelliJ IDEA&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.jetbrains.com/idea/2020/06/code-formatting/">Code Formatting | The IntelliJ IDEA Blog&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+the real changes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.jetbrains.com/help/idea/reformat-and-rearrange-code.html"&gt;Reformat and rearrange code | IntelliJ IDEA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.jetbrains.com/idea/2020/06/code-formatting/"&gt;Code Formatting | The IntelliJ IDEA Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

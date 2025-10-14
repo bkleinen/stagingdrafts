@@ -1,142 +1,142 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B WT1 Verteilte Systeme on STAGING DRAFTS --- Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/</link><description>Recent content in B WT1 Verteilte Systeme on STAGING DRAFTS --- Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/index.xml" rel="self" type="application/rss+xml"/><item><title>B WT1 Verteilte Systeme Summer 2025 - Schedule</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/schedule/</guid><description>&lt;p>This schedule is, as always, tentative and will be adapted throughout the term if necessary.&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Woche&lt;/th>
- &lt;th style="text-align: left">KW&lt;/th>
- &lt;th style="text-align: left">Date&lt;/th>
- &lt;th style="text-align: left">Lecture&lt;/th>
- &lt;th style="text-align: left">Labs (Thu+Tue)&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">Thu 03/04/2025, Tue 08/04/2025&lt;/td>
- &lt;td style="text-align: left">&amp;mdash; Einführungswoche &amp;mdash;&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">15&lt;/td>
- &lt;td style="text-align: left">Thu 10/04/2025, Tue 15/04/2025&lt;/td>
- &lt;td style="text-align: left">Intro to the class, Introduction to distributed Systems&lt;/td>
- &lt;td style="text-align: left">Lab 01: Building a Static Web Application / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-01-static-node-app/">Lab 01 - Building a Static Web Application&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">16&lt;/td>
- &lt;td style="text-align: left">Thu 17/04/2025, Tue 22/04/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 2, Architectures&lt;/td>
- &lt;td style="text-align: left">Lab 02: Building a First Express Application / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-02-first-express-app">Lab 02 - Building a First Express Application&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">17&lt;/td>
- &lt;td style="text-align: left">Thu 24/04/2025, Tue 29/04/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 2, Architectures&lt;/td>
- &lt;td style="text-align: left">Lab 04: Adding Mongo Support / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-04-mongo">Lab 04 - Adding Mongo Support&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">x&lt;/td>
- &lt;td style="text-align: left">18&lt;/td>
- &lt;td style="text-align: left">Thu 01/05/2025, Tue 06/05/2025&lt;/td>
- &lt;td style="text-align: left">&amp;mdash; Tag der Arbeit &amp;mdash;&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">x&lt;/td>
- &lt;td style="text-align: left">19&lt;/td>
- &lt;td style="text-align: left">Thu 08/05/2025, Tue 13/05/2025&lt;/td>
- &lt;td style="text-align: left">&amp;mdash; Feiertag* &amp;mdash;&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">20&lt;/td>
- &lt;td style="text-align: left">Thu 15/05/2025, Tue 20/05/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 3, Processes&lt;/td>
- &lt;td style="text-align: left">Lab 05: Understanding Promises / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-05-promises">Lab 05 - Understanding Promises&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">21&lt;/td>
- &lt;td style="text-align: left">Thu 22/05/2025, Tue 27/05/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 4, Communication&lt;/td>
- &lt;td style="text-align: left">Lab 06: Supporting Complex Models / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-06-complex-models">Lab 06 - Supporting Complex Models&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">x&lt;/td>
- &lt;td style="text-align: left">22&lt;/td>
- &lt;td style="text-align: left">Thu 29/05/2025, Tue 03/06/2025&lt;/td>
- &lt;td style="text-align: left">&amp;mdash; Himmelfahrt &amp;mdash;&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">7&lt;/td>
- &lt;td style="text-align: left">23&lt;/td>
- &lt;td style="text-align: left">Thu 05/06/2025, Tue 10/06/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 5, Coordination&lt;/td>
- &lt;td style="text-align: left">Lab 07: Adding CRUD Support / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-07-crud">Lab 07 - Adding CRUD Support&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">8&lt;/td>
- &lt;td style="text-align: left">24&lt;/td>
- &lt;td style="text-align: left">Thu 12/06/2025, Tue 17/06/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 5, Coordination&lt;/td>
- &lt;td style="text-align: left">Lab 08: Adding Login Support / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-08-login">Lab 08 - Adding Login Support&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">9&lt;/td>
- &lt;td style="text-align: left">25&lt;/td>
- &lt;td style="text-align: left">Thu 19/06/2025, Tue 24/06/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 6, Naming&lt;/td>
- &lt;td style="text-align: left">Lab 09: Adding Support for Passport.js / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-09-passport">Lab 09 - Adding Support for Passport.js&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">10&lt;/td>
- &lt;td style="text-align: left">26&lt;/td>
- &lt;td style="text-align: left">Thu 26/06/2025, Tue 01/07/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 7, Consistency and Replication&lt;/td>
- &lt;td style="text-align: left">Lab 10: Building a REST API / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-10-rest">Lab 10 - Building a REST API&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11&lt;/td>
- &lt;td style="text-align: left">27&lt;/td>
- &lt;td style="text-align: left">Thu 03/07/2025, Tue 08/07/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 8, Fault Tolerance&lt;/td>
- &lt;td style="text-align: left">Lab 11: Securing a REST API / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-11-securing-rest">Lab 11 - Securing a REST API&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12&lt;/td>
- &lt;td style="text-align: left">28&lt;/td>
- &lt;td style="text-align: left">Thu 10/07/2025, Tue 15/07/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 8, Fault Tolerance&lt;/td>
- &lt;td style="text-align: left">Lab 12: Adding Support for Socket.io / link to &lt;strong>draft&lt;/strong>: &lt;a href="../labs/sprint-12-socket">Lab 12 - Adding Support for Socket.io&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">13&lt;/td>
- &lt;td style="text-align: left">29&lt;/td>
- &lt;td style="text-align: left">Thu 17/07/2025, Tue 22/07/2025&lt;/td>
- &lt;td style="text-align: left">Chapter 9, Security&lt;/td>
- &lt;td style="text-align: left">Trial Exams&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">14&lt;/td>
- &lt;td style="text-align: left">30&lt;/td>
- &lt;td style="text-align: left">Thu 24/07/2025, Tue 29/07/2025&lt;/td>
- &lt;td style="text-align: left">Exam (tentative date, check LSF!)&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;td style="text-align: left">Fri 25/07/2025&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://showtime.f4.htw-berlin.de/">Showtime!&lt;/a>&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h2 id="notes">Notes&lt;/h2>
-&lt;p>* 8.5.2025: einmaliger Feiertag anlässlich des 80. Jahrestags der Befreiung vom Nationalsozialismus und des Endes des zweiten Weltkriegs&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B WT1 Verteilte Systeme on STAGING DRAFTS --- Prof. Dr. Barne Kleinen</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/</link><description>Recent content in B WT1 Verteilte Systeme on STAGING DRAFTS --- Prof. Dr. Barne Kleinen</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/index.xml" rel="self" type="application/rss+xml"/><item><title>B WT1 Verteilte Systeme Summer 2025 - Schedule</title><link>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bkleinen.github.io/stagingdrafts/classes/ss2025/b-wt1/schedule/</guid><description>&lt;p&gt;This schedule is, as always, tentative and will be adapted throughout the term if necessary.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;Woche&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;KW&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Date&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Lecture&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;Labs (Thu+Tue)&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;1&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 03/04/2025, Tue 08/04/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;mdash; Einführungswoche &amp;mdash;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;2&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;15&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 10/04/2025, Tue 15/04/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Intro to the class, Introduction to distributed Systems&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 01: Building a Static Web Application / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-01-static-node-app/"&gt;Lab 01 - Building a Static Web Application&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;3&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;16&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 17/04/2025, Tue 22/04/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 2, Architectures&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 02: Building a First Express Application / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-02-first-express-app"&gt;Lab 02 - Building a First Express Application&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;17&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 24/04/2025, Tue 29/04/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 2, Architectures&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 04: Adding Mongo Support / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-04-mongo"&gt;Lab 04 - Adding Mongo Support&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;x&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;18&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 01/05/2025, Tue 06/05/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;mdash; Tag der Arbeit &amp;mdash;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;x&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;19&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 08/05/2025, Tue 13/05/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;mdash; Feiertag* &amp;mdash;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;20&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 15/05/2025, Tue 20/05/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 3, Processes&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 05: Understanding Promises / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-05-promises"&gt;Lab 05 - Understanding Promises&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;21&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 22/05/2025, Tue 27/05/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 4, Communication&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 06: Supporting Complex Models / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-06-complex-models"&gt;Lab 06 - Supporting Complex Models&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;x&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;22&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 29/05/2025, Tue 03/06/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&amp;mdash; Himmelfahrt &amp;mdash;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;7&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;23&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 05/06/2025, Tue 10/06/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 5, Coordination&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 07: Adding CRUD Support / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-07-crud"&gt;Lab 07 - Adding CRUD Support&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;8&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;24&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 12/06/2025, Tue 17/06/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 5, Coordination&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 08: Adding Login Support / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-08-login"&gt;Lab 08 - Adding Login Support&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;9&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;25&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 19/06/2025, Tue 24/06/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 6, Naming&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 09: Adding Support for Passport.js / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-09-passport"&gt;Lab 09 - Adding Support for Passport.js&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;26&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 26/06/2025, Tue 01/07/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 7, Consistency and Replication&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 10: Building a REST API / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-10-rest"&gt;Lab 10 - Building a REST API&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;27&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 03/07/2025, Tue 08/07/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 8, Fault Tolerance&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 11: Securing a REST API / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-11-securing-rest"&gt;Lab 11 - Securing a REST API&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;28&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 10/07/2025, Tue 15/07/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 8, Fault Tolerance&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Lab 12: Adding Support for Socket.io / link to &lt;strong&gt;draft&lt;/strong&gt;: &lt;a href="../labs/sprint-12-socket"&gt;Lab 12 - Adding Support for Socket.io&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;13&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;29&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 17/07/2025, Tue 22/07/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Chapter 9, Security&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Trial Exams&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;14&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;30&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Thu 24/07/2025, Tue 29/07/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Exam (tentative date, check LSF!)&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Fri 25/07/2025&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;a href="https://showtime.f4.htw-berlin.de/"&gt;Showtime!&lt;/a&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;* 8.5.2025: einmaliger Feiertag anlässlich des 80. Jahrestags der Befreiung vom Nationalsozialismus und des Endes des zweiten Weltkriegs&lt;/p&gt;</description></item></channel></rss>
